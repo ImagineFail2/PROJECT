@@ -1,0 +1,140 @@
+.contacts_section {
+  margin-top: 120px;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.contacts_container {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 30px 0 30px;
+}
+
+.contacts_div {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.contacts_content {
+  width: 100%;
+}
+
+.contacts_tittle {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.contacts_info {
+  font-style: normal;
+  max-width: 680px;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  /* 28px */
+}
+
+.contacts_info_description {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.contacts_form {
+  margin-top: 100px;
+  margin-left: 60px;
+  width: 100%;
+}
+
+.form_div {
+  max-width: 400px;
+  width: 100%;
+}
+
+.input_form {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  min-width: 100%;
+  height: 50px;
+  padding-left: 17px;
+  margin-bottom: 10px;
+  align-items: center;
+  background-color: #141414;
+  border: none;
+}
+
+.input_form:focus {
+  outline: none;
+  border: 1px solid #f60;
+  background: rgb(35, 19, 9);
+  box-shadow: 0px 0px 60px 0px rgba(255, 102, 0, 0.181);
+}
+
+.submit_contact_button {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  height: 50px;
+  padding: 15px 30px 15px 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f60;
+  background: rgba(255, 102, 0, 0.4);
+  box-shadow: 0px 0px 60px 0px rgba(255, 102, 0, 0.45);
+}
+
+.submit_contact_button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.contacts_maps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts_maps p {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+@media all and (max-width: 1160px) {
+  .contacts_section .contacts_container .contacts_maps {
+    display: grid;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .contacts_section .contacts_container .contacts_div {
+    display: grid;
+  }
+
+  .contacts_section .contacts_container .contacts_div .contacts_form {
+    margin-left: 0px;
+  }
+
+  .contacts_section .contacts_container .contacts_div .contacts_form form {
+    max-width: none;
+  }
+}

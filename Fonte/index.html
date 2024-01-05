@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fonte</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="styles/duplicate_styles.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+</head>
+<body>
+    <section id="container">
+        <header class="header">
+            <nav>
+                <ul class='nav-bar'>
+                    <li class='logo'><a href='#'><img src='images/logo (1).svg' /></a></li>
+                    <input type='checkbox' id='check' />
+                    <span class="menu">
+                        <li><a href="#about_us">О нас</a></li>
+                        <li><a href="#our_team">Команда</a></li>
+                        <li><a href="html/news_html/news.html">Новости</a></li>
+                        <li><a href="html/products_html/products.html">Продукты</a></li>
+                        <li><a href="html/contacts.html">Контакты</a></li>
+                        <button class="enter-menu button_style" onclick="toggleLogin()">Войти</button>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <button class="enter-main button_style" onclick="toggleLogin()">Войти</button>
+                    <div class="overlay">
+                        <div class="login">
+                            <div class="header_1">
+                                <h1>Login</h1>
+                                <i class="fas fa-times" onclick="toggleLogin()"></i>
+                            </div>
+                            <div class="body_1">
+                                <form action="#" class="form">
+                                    <input type="text" placeholder="Username" />
+                                    <input type="password" placeholder="Password" />
+                                </form>
+                            </div>
+                            <div class="footer_1">
+                                <button>Login</button>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="slider">
+            <div class="cont s--inactive">
+                <!-- cont inner start -->
+                <div class="cont__inner">
+                    <!-- el start -->
+                    <div class="el">
+                        <div class="el__overflow">
+                            <div class="el__inner">
+                                <div class="el__bg"></div>
+                                <div class="el__preview-cont">
+                                    <h2 class="el__heading">Fonte Hedge Fund OEIC Limited</h2>
+                                </div>
+                                <div class="el__content">
+                                    <div class="el__text">Создан для инвестирования в высокодоходные активы.</div>
+                                    <a href="html/products_html/product_1.html" class="el_text_button">Подробнее</a>
+                                    <div class="el__close-btn"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="el__index">
+                            <div class="el__index-back">1</div>
+                            <div class="el__index-front">
+                                <div class="el__index-overlay" data-index="1">1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- el end -->
+                    <!-- el start -->
+                    <div class="el">
+                        <div class="el__overflow">
+                            <div class="el__inner">
+                                <div class="el__bg"></div>
+                                <div class="el__preview-cont">
+                                    <h2 class="el__heading">Fonte Emerging Markets CEIC Limited</h2>
+                                </div>
+                                <div class="el__content">
+                                    <div class="el__text">Фонд обеспечивает доступ к инвестициям в ценные бумаги, в том числе ценные бумаги развивающихся рынков.</div>
+                                    <a href="html/products_html/product_2.html" class="el_text_button">Подробнее</a>
+                                    <div class="el__close-btn"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="el__index">
+                            <div class="el__index-back">2</div>
+                            <div class="el__index-front">
+                                <div class="el__index-overlay" data-index="2">2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- el end -->
+                    <!-- el start -->
+                    <div class="el">
+                        <div class="el__overflow">
+                            <div class="el__inner">
+                                <div class="el__bg"></div>
+                                <div class="el__preview-cont">
+                                    <h2 class="el__heading">Fonte Crypto Fund OEIC Limited</h2>
+                                </div>
+                                <div class="el__content">
+                                    <div class="el__text">Фонд обеспечивает доступ к инвестициям в цифровые активы.</div>
+                                    <a href="html/products_html/product_3.html" class="el_text_button">Подробнее</a>
+                                    <div class="el__close-btn"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="el__index">
+                            <div class="el__index-back">3</div>
+                            <div class="el__index-front">
+                                <div class="el__index-overlay" data-index="3">3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- el end -->
+                    <!-- el start -->
+                    <div class="el">
+                        <div class="el__overflow">
+                            <div class="el__inner">
+                                <div class="el__bg"></div>
+                                <div class="el__preview-cont">
+                                    <h2 class="el__heading">Fonte Dynamic Fund OEIC Limited</h2>
+                                </div>
+                                <div class="el__content">
+                                    <div class="el__text">Целевое распределение активов Фонда включает в себя акции, фиксированный доход, частные инвестиции, инвестиционные фонды недвижимости, деривативы, а также цифровые активы</div>
+                                    <a href="html/products_html/product_4.html" class="el_text_button">Подробнее</a>
+                                    <div class="el__close-btn"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="el__index">
+                            <div class="el__index-back">4</div>
+                            <div class="el__index-front">
+                                <div class="el__index-overlay" data-index="4">4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- el end -->
+                    <!-- el start -->
+                    <div class="el">
+                        <div class="el__overflow">
+                            <div class="el__inner">
+                                <div class="el__bg"></div>
+                                <div class="el__preview-cont">
+                                    <h2 class="el__heading">Fonte Universal Fund OEIC Limited</h2>
+                                </div>
+                                <div class="el__content">
+                                    <div class="el__text">Целевое распределение активов Фонда включает фиксированный доход, в том числе развивающиеся рынки с фиксированной доходностью, а также акции.</div>
+                                    <a href="html/products_html/product_5.html" class="el_text_button">Подробнее</a>
+                                    <div class="el__close-btn"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="el__index">
+                            <div class="el__index-back">5</div>
+                            <div class="el__index-front">
+                                <div class="el__index-overlay" data-index="5">5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- el end -->
+                </div>
+                <!-- cont inner end -->
+            </div>
+        </section>
+
+        <section id="about_us" class="about_section">
+            <h1 class="about_div_tittle">О нас</h1>
+            <div class="about_div_content">
+                <div class="about_div_img">
+                    <img src="images/about.png" alt="Fonte" />
+                </div>
+                <div class="about_div_text">
+                    <p>
+                        Наша Команда успешно осуществляет деятельность на нескольких рынках инвестиций.
+                        Богатство выбора инструментов этих рынков позволяет Нам успешно сохранять и
+                        преумножать капитал клиентов.
+                    </p>
+                    <p>
+                        Вступить в партнерство с Fonte могут как профессиональные инвестора, так и частные
+                        лица, только начинающие открывать для себя новые перспективы. Наша юрисдикция -
+                        Международный финансовый центр «Астана» (МФЦА). Комфортные налоговые условия и
+                        регуляторные политики обеспечивают необходимые свободы и преимущества для
+                        достижения целей инвестиций.
+                    </p>
+                    <p>
+                        В партнерстве с Fonte Capital LTD, инвесторы имеют возможность воспользоваться не
+                        только проверенными стратегиями, но и смогут совместно разработать персональные
+                        инвестиционные решения.
+                    </p>
+                    <a href="images/fonte-license-xhw.pdf" class="license" target="_blank">Лицензии</a>
+                </div>
+            </div>
+        </section>
+        <section class="values_section">
+            <div class="values_line">
+                <div class="values_content">
+                    <h2 class="values_tittle">Наши ценности</h2>
+                    <ul class="values_list">
+                        <li class="values_list_item">
+                            <div class="values_list_img">
+                                <img src="images/brilliant.svg" alt="diamond" />
+                            </div>
+                            <div class="values_list_text">
+                                <h3>Стабильность</h3>
+                                <p>
+                                    Сохранность капитала клиентов приоритетнее доходности - каждое решение
+                                    взвешено, обдумано и оценено.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="values_list_item">
+                            <div class="values_list_img">
+                                <img src="images/success_icon.svg" alt="success" />
+                            </div>
+                            <div class="values_list_text">
+                                <h3>Устойчивость</h3>
+                                <p>
+                                    Устойчивое развитие — основа нашей бизнес-модели. Начиная с поиска и
+                                    оценки предоставившихся возможностей для бизнеса до последовательного
+                                    развития наших проектов и реаллокации капитала в новые возможности.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="values_list_item">
+                            <div class="values_list_img">
+                                <img src="images/suite.svg" alt="suite" />
+                            </div>
+                            <div class="values_list_text">
+                                <h3>Команда</h3>
+                                <p>
+                                    Команда Fonte Capital LTD – основа успеха. Каждый сотрудник Компании –
+                                    это ценный актив в рабочем процессе фонда. Наша цель – создание такой
+                                    рабочей атмосферы и условий, которые позволят максимально раскрыть
+                                    потенциал каждого сотрудника для достижения максимального результата.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="values_list_item">
+                            <div class="values_list_img">
+                                <img src="images/reputation.svg" alt="reputation" />
+                            </div>
+                            <div class="values_list_text">
+                                <h3>Репутация</h3>
+                                <p>
+                                    Ответственность и этика – основа нашей деятельности. Деятельность в
+                                    рамках лучших практик (Корпоративный Кодекс этики и стандарты
+                                    профессионального поведения) позволяет предлагать клиентам более
+                                    качественные инвестиционные продукты, отвечающие высоким требованиям и
+                                    ожиданиям самых требовательных клиентов.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="our_team" class="our_team_section">
+            <div class="our_team_line">
+                <h1 class="our_team_tittle">Наша команда</h1>
+                <div class="our_team_description">
+                    <p>
+                        Команда Fonte Capital LTD – основа успеха. Каждый сотрудник Компании – это ценный
+                        актив в рабочем процессе фонда. Наша цель – создание такой рабочей атмосферы и
+                        условий, которые позволят максимально раскрыть потенциал каждого сотрудника для
+                        достижения максимального результата.
+                    </p>
+                </div>
+                <ul class="our_team_list">
+                    <li class="team_list_member">
+                        <div class="our_team_list_box">
+                            <img class="our_team_list_img" src="images/team_member.svg" alt="TeamMember" />
+                        </div>
+                        <h3 class="our_team_list_tittle">Ержан Мусин</h3>
+                        <p class="our_team_list_description">CEO</p>
+                    </li>
+                    <li class="team_list_member">
+                        <div class="our_team_list_box">
+                            <img class="our_team_list_img" src="images/team_member2.svg" alt="TeamMember" />
+                        </div>
+                        <h3 class="our_team_list_tittle">Олжас Укенов</h3>
+                        <p class="our_team_list_description">CEO</p>
+                    </li>
+                </ul>
+                <div class="our_panthers">
+                    <h2 class="our_panthers_tittle">Сторонники и Партнеры</h2>
+                    <a href="https://www.seedbox.com/en/" target="_blank">SeedBox</a>
+                    <a href="https://freedomfinance.eu" target="_blank">Freedom Finance</a>
+                </div>
+            </div>
+        </section>
+        <section class="form_section">
+            <div class="contact_form_div">
+                <form action="https://fe.it-academy.by/TestForm.php" class="form_div">
+                    <input class="input_form" name="full_name" type="text" placeholder="ФИО" />
+                    <div class="form_number_email">
+                        <input name="email" class="input_form input_form--last" type="email"
+                            placeholder="Электронная почта" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                            required />
+                        <input name="phone" class="input_form input_form--last" type="tel"
+                            placeholder="Телефон (+375297776655)" required
+                            pattern="(^(\+375|80)(29|25|44|33)(\d\d\d)(\d{2})(\d{2})$)|()|" />
+                    </div>
+                    <textarea name="Message" id="Message" class="form_message" placeholder="Текст обращения"></textarea>
+                    <button class="submit_contact_button" type="submit">Получить консультацию</button>
+                </form>
+                <div class="form_img">
+                    <img class="mobile-img" src="images/Rectangle_mobile.png" alt="Rectangle">
+                    <img class="main-img" src="images/Rectangle.png" alt="Rectangle" />
+                </div>
+            </div>
+        </section>
+        <section class="middle_menu_section">
+            <div class="middle_menu_container">
+                <a href="#">
+                    <img src="images/logo_footer.svg" alt="Logo of the website" />
+                    <div class="middle_menu_content">
+                        <ul class="middle_menu_list">
+                            <li><a href="#about_us">О нас</a></li>
+                            <li><a href="#our_team">Команда</a></li>
+                            <li><a href="html/news_html/news.html">Новости</a></li>
+                            <li><a href="html/products_html/products.html">Продукты</a></li>
+                            <li><a href="html/contacts.html">Контакты</a></li>
+                        </ul>
+                        <ul class="middle_menu_list">
+                            <li><a href="html/Complaints.html">Complaints and suggestions</a></li>
+                            <li>
+                                <a href="https://www.freeprivacypolicy.com/live/8a553224-04f3-4cc4-882a-cfde6c605007"
+                                    target="_blank">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_container">
+                <div class="footer_tittle">
+                    <span>&#169; 2022 &bull; Fonte &bull; All rights reserved</span>
+                </div>
+                <div class="footer_content">
+                    <p>
+                        Частная компания «FONTE Capital Ltd.», зарегистрированная по адресу: Есильский
+                        район, г. Нур-Султан, Мангилик Ел, 55/20, офис 345-346, БИН 220140900035,
+                        осуществляет свою деятельность в соответствии с законодательством Международного
+                        Финансового центра «Астана» (МФЦА) имеет право осуществлять регулируемую
+                        деятельность по управлению коллективными инвестициями – на основании лицензии №
+                        AFSA-A-LA-2022-0004, от 27 января 2022 года на бессрочной основе
+                        <br />
+                        <br />
+                        Стоимость инвестиции инвестора в инвестиционный фонд может увеличиваться или
+                        уменьшаться. Результаты инвестирования в прошлом не определяют доходы в будущем.
+                        Управляющая компания инвестиционного фонда или МФЦА не гарантируют доходности
+                        инвестиций. Инвестору необходимо ознакомиться с Уставом (Constitution) и
+                        Инвестиционным меморандумом (Offering Memorandum) инвестиционного фонда, его
+                        инвестиционной декларацией и определенными рисками перед инвестированием активов в
+                        инвестиционный фонд.
+                    </p>
+                </div>
+            </div>
+        </footer>   
+    </section>
+    <script src="js/login.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

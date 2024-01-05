@@ -1,0 +1,123 @@
+  @media all and (max-width:700px) {
+    .products_list .products_list_item {
+      display: grid;
+    }
+
+    .products_list .products_list_item .products_content {
+      padding: 30px 30px;
+    }
+
+    .products_list .products_list_item .products_image::after {
+      background: linear-gradient(180deg, #272628 0%, #272628 11.36%, rgba(39, 38, 40, 0.797598) 23.27%, rgba(39, 38, 40, 0.53) 38.36%, rgba(39, 38, 40, 0.269245) 58.62%, rgba(39, 38, 40, 0) 76.25%);
+
+    }
+  }
+
+  .products_section {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+
+  .products_container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 30px 0 30px;
+  }
+
+  .products_tittle {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .products_list {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+
+  .products_list_item {
+    display: flex;
+    background-color: #272628;
+    justify-content: space-between;
+  }
+
+  .products_list_item a {
+    max-width: 160px;
+    transition: 0.5s;
+    display: flex;
+    padding: 12px 35px 12px 35px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid #f60;
+    background: rgba(255, 102, 0, 0.3);
+    box-shadow: 0px 0px 50px 0px rgba(255, 102, 0, 0.3);
+  }
+
+  .products_list_item a:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  .products_content {
+    padding-left: 50px;
+    align-self: center;
+  }
+
+  .products_image {
+    transition: all 0.3s ease 0s;
+    opacity: 0.2;
+    position: relative;
+  }
+
+  .products_image img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .products_list_item .products_image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #272628 0%, #272628 11.36%, rgba(39, 38, 40, 0.797598) 23.27%, rgba(39, 38, 40, 0.53) 38.36%, rgba(39, 38, 40, 0.269245) 58.62%, rgba(39, 38, 40, 0) 76.25%);
+    mix-blend-mode: normal;
+  }
+
+  .products_tittle_list {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .products_description {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    margin: 20px 0;
+  }
+
+  .products_image:hover {
+    mix-blend-mode: normal;
+    opacity: 1;
+  }

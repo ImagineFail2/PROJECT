@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonte</title>
+  <link rel="stylesheet" href="../../styles/duplicate_styles.css">
+  <link rel="stylesheet" href="../../styles/news_styles/news.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <section id="container">
+    <header class="header">
+      <nav>
+          <ul class='nav-bar'>
+              <li class='logo'><a href='../../index.html'><img src='../../images/logo (1).svg ' /></a></li>
+              <input type='checkbox' id='check' />
+              <span class="menu">
+                <li><a href="../../index.html#about_us">О нас</a></li>
+                <li><a href="../../index.html#our_team">Команда</a></li>
+                <li><a href="../news_html/news.html">Новости</a></li>
+                <li><a href="../products_html/products.html">Продукты</a></li>
+                <li><a href="../contacts.html">Контакты</a></li>
+                  <button class="enter-menu button_style" onclick="toggleLogin()">Войти</button>
+                  <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+              </span>
+              <button class="enter-main button_style" onclick="toggleLogin()">Войти</button>
+              <div class="overlay">
+                  <div class="login">
+                      <div class="header_1">
+                          <h1>Login</h1>
+                          <i class="fas fa-times" onclick="toggleLogin()"></i>
+                      </div>
+                      <div class="body_1">
+                          <form action="#" class="form">
+                              <input type="text" placeholder="Username" />
+                              <input type="password" placeholder="Password" />
+                          </form>
+                      </div>
+                      <div class="footer_1">
+                          <button>Login</button>
+                      </div>
+                  </div>
+              </div>
+              <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          </ul>
+      </nav>
+  </header>
+
+    <section class="blog_section">
+      <div class="blog_div">
+        <h1 id="news" class="blog_tittle">Новости</h1>
+      </div>
+      <ul class="blog_div_list">
+        <li class="blog_list">
+          <div class="blog_list_img">
+            <img class="blog_post_img" src="../../images/blog_images/Minfin.png" alt="Building">
+          </div>
+          <div class="blog_list_content">
+            <h3 class="blog_post_tittle">Минфин предложил единый налоговый вычет</h3>
+            <p class="bog_post_author">Сергей Мингазов, 03 октября 2022</p>
+            <p class="blog_post_text">
+              Минфин разработал новый формат индивидуальных инвестиционных счетов (ИИС-III) — его включат в систему
+              единого налогового вычета наряду с пенсионными и страховыми инвестициями. С 2024 года ИИС-III полностью
+              заменит ИИС-I, запущенный в 2015 году. Новый инвестсчет будет неинтересен для инвесторов в предложенной
+              конфигурации, считают в НАУФОР</p>
+            <a href="blog_1.html" class="blog_post_link">Подробнее</a>
+          </div>
+        </li>
+        <li class="blog_list">
+          <div class="blog_list_img">
+            <img class="blog_post_img" src="../../images/blog_images/Ray.png" alt="Ray">
+          </div>
+          <div class="blog_list_content">
+            <h3 class="blog_post_tittle">Рэй Далио перестал считать наличные «мусором»</h3>
+            <p class="bog_post_author">Екатерина Хабидулина, 14 сентября 2023</p>
+            <p class="blog_post_text">
+              В 2021 году Далио, напротив, в период роста инфляции говорил, что «наличные — это мусор», и не стоит
+              хранить в них свои средства. Спустя год он в своем Twitter (нынешний X) сообщил, что изменил свое мнение.
+            </p>
+            <a href="blog_2.html" class="blog_post_link">Подробнее</a>
+          </div>
+        </li>
+        <li class="blog_list">
+          <div class="blog_list_img">
+            <img class="blog_post_img" src="../../images/blog_images/5g.png" alt="5g">
+          </div>
+          <div class="blog_list_content">
+            <h3 class="blog_post_tittle">Инвестиции в 5G – необходимое условие экономического развития</h3>
+            <p class="bog_post_author">28 октября 2022</p>
+            <p class="blog_post_text">
+              Генеральный директор Kcell Асхат Узбеков рассказал о том, что развертывание сети пятого поколения и
+              развитие экосистемы индустрии 5G в Казахстане неизбежно и ощутимо повлияют на экономику. Это произойдет за
+              счет реализации цифровой трансформации, где платформы 5G станут ключевыми факторами трансформации
+              экономики.</p>
+            <a href="blog_3.html" class="blog_post_link">Подробнее</a>
+          </div>
+        </li>
+        <li class="blog_list">
+          <div class="blog_list_img">
+            <img class="blog_post_img" src="../../images/blog_images/iva.png" alt="IvaLogo">
+          </div>
+          <div class="blog_list_content">
+            <h3 class="blog_post_tittle">У инвесткомпании «ИВА Партнерс» сменился собственник</h3>
+            <p class="bog_post_author">RusBonds.ru, 21 февраля 2023</p>
+            <p class="blog_post_text">
+              Минфин разработал новый формат индивидуальных инвестиционных счетов (ИИС-III) — его включат в систему
+              единого налогового вычета наряду с пенсионными и страховыми инвестициями. С 2024 года ИИС-III полностью
+              заменит ИИС-I, запущенный в 2015 году. Новый инвестсчет будет неинтересен для инвесторов в предложенной
+              конфигурации, считают в НАУФОР</p>
+            <a href="blog_4.html" class="blog_post_link">Подробнее</a>
+          </div>
+        </li>
+        <li class="blog_list">
+          <div class="blog_list_img">
+            <img class="blog_post_img" src="../../images/blog_images/islam.png" alt="Building">
+          </div>
+          <div class="blog_list_content">
+            <h3 class="blog_post_tittle">Зеленые, исламские</h3>
+            <p class="bog_post_author">Татьяна Шестакова, 07 октября 2022</p>
+            <p class="blog_post_text">
+
+              На рынке инвестирования новым трендом можно назвать появление так называемых зеленых фондов. Обсуждая тему
+              в рамках Международной недели инвесторов, эксперты отметили, что "зеленая" экономика и "зеленые"
+              инвестиции набирают обороты. Уже есть инвесторы, которые вкладывают только в соответствующие этим
+              требованиям акции. И этот тренд в ближайшую пятилетку может оказать значительное влияние на развитие как
+              отдельных компаний, так и государственных экономик.</p>
+            <a href="blog_5.html" class="blog_post_link">Подробнее</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="middle_menu_section">
+      <div class="middle_menu_container">
+        <a href="#">
+          <img src="../../images/logo_footer.svg" alt="Logo of the website">
+          <div class="middle_menu_content">
+            <ul class="middle_menu_list">
+              <li><a href="../../index.html#about_us">О нас</a></li>
+              <li><a href="../../index.html#our_team">Команда</a></li>
+              <li><a href="#news">Новости</a></li>
+              <li><a href="../products_html/products.html">Продукты</a></li>
+              <li><a href="../contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="middle_menu_list">
+              <li><a href="../Complaints.html">Complaints and suggestions</a></li>
+              <li><a href="https://www.freeprivacypolicy.com/live/8a553224-04f3-4cc4-882a-cfde6c605007"
+                  target="_blank">Privacy policy</a></li>
+            </ul>
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_tittle">
+          <span>&#169; 2022 &bull; Fonte &bull; All rights reserved</span>
+        </div>
+        <div class="footer_content">
+          <p>
+            Частная компания «FONTE Capital Ltd.», зарегистрированная по адресу: Есильский район, г. Нур-Султан,
+            Мангилик Ел, 55/20, офис 345-346, БИН 220140900035, осуществляет свою деятельность в соответствии с
+            законодательством Международного Финансового центра «Астана» (МФЦА) имеет право осуществлять регулируемую
+            деятельность по управлению коллективными инвестициями – на основании лицензии № AFSA-A-LA-2022-0004, от 27
+            января 2022 года на бессрочной основе
+            <br>
+            <br>
+            Стоимость инвестиции инвестора в инвестиционный фонд может увеличиваться или уменьшаться. Результаты
+            инвестирования в прошлом не определяют доходы в будущем. Управляющая компания инвестиционного фонда или МФЦА
+            не гарантируют доходности инвестиций. Инвестору необходимо ознакомиться с Уставом (Constitution) и
+            Инвестиционным меморандумом (Offering Memorandum) инвестиционного фонда, его инвестиционной декларацией и
+            определенными рисками перед инвестированием активов в инвестиционный фонд.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="../../js/login.js"></script>
+
+</body>
+
+</html>
