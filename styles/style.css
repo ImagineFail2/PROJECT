@@ -1,3 +1,6 @@
+html {
+  user-select: none;
+}
 @-webkit-keyframes show-overlay {
   0% {
     opacity: 0;
